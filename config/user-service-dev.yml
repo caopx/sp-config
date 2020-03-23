@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: user-service
+  cloud:
+    config:
+      override-none: true
   rabbitmq:
     host: 192.168.190.129
     port: 5672
